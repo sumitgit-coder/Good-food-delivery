@@ -1,0 +1,82 @@
+/* Home section */
+
+#home {
+    height: 370px;
+    padding: 3px 28px;
+}
+
+#home::before {
+    height: 480px;
+}
+
+#home p {
+    font-size: 13px;
+}
+
+
+/* Services section  */
+
+#services {
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+}
+
+#services .box {
+    padding: 10px;
+    margin: 2px 0px;
+    margin-bottom: 20px;
+}
+
+#services .box {
+    width: 60%;
+    height: 100%;
+    border: 2px;
+    padding: 10px 10px;
+    border-radius: 28px;
+    background: #FFFFFF;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: inset 6px 6px 12px #c2bfbf, inset -6px -6px 12px #bdb9b9;
+}
+
+#services .box img {
+    height: 170px;
+    width: 150px;
+    margin: auto;
+    display: block;
+    border-radius: 50%;
+}
+
+#home p {
+    display: none;
+}
+
+#home1 {
+    font-size: 35px;
+    color: #ada1a1;
+    display: flex;
+    flex-direction: row;
+    padding: 0px 10px;
+    height: 300px;
+    margin-top: -100px;
+    margin-left: -300px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Footer */
+
+
+/* Utility classes */
+
+.h-primary {
+    font-size: 26px;
+}
+
+.btn {
+    font-size: 13px;
+    padding: 4px 8px;
+}
